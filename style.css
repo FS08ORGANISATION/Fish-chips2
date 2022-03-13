@@ -1,0 +1,214 @@
+*{
+
+    
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+
+    font-family: "Open Sans";
+    font-size: 1em;
+    background-image: url(/img/fond.png);
+}
+
+/* --------HEADER-------------------- */
+#entete{
+
+    width: 100%;
+    height: 125px;
+    background-color: #25B3B4;
+    position: relative;
+    margin-top: 50px;
+}
+
+.logo{
+
+    position: absolute;
+    padding-left: 45%;
+    height: 90px;
+}
+
+.barnav li{
+
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+li a{
+
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Slabo 27px";
+    
+}
+
+.barnav ul{
+
+    padding-left: 600px;
+    padding-top: 95px;
+    
+}
+
+/* ---------------MAIN-------------------- */
+
+#principal-main{
+
+    position: absolute;
+    width: 900px;
+    margin-left: 200px;
+}
+
+.welcome, .paragraph1{
+
+    text-align: center;
+    padding: 10px;
+    color: rgb(58, 57, 57);
+}
+
+.section-top{
+
+    position: relative;
+    border: 1px solid none;
+    width: 500px;
+    height: 250px;
+    margin-left: 250px;
+}
+
+.section-left{
+
+    position: absolute;
+    border: 1px solid none;
+    width: 70%;
+    height: 450px;
+    float: left;
+    background-color: rgb(255, 251, 251);
+    
+}
+
+.today{
+
+    text-align: center;
+    padding: 5px;
+    font-size: 3.5em;
+}
+
+.today-color{
+
+    color: #25B3B4;    
+}
+
+.crusty-fish{
+
+    border: 1px solid none;
+    width: 50%;
+    float: left;
+    position: relative;
+    
+}
+
+.multifish{
+
+    border: 1px solid none;
+    width: 50%;
+    float: right;
+    position: relative;
+    
+}
+
+.aside-right{
+
+    position: relative;
+    float: right;
+    width: 29%;
+    border: 2px solid rgb(28, 28, 250);
+    background-color: #25B3B4;
+    padding: 5px;
+    
+    
+}
+
+.menu{
+
+    position: relative;
+    border-radius: 50%;
+    width: 25%;
+    padding: 5px;
+    float: left;
+    
+}
+
+.vignette{
+
+    position: absolute;
+    width: 35%;
+    margin-top: -40px;
+    margin-left: 200px;
+    float: right;
+}
+
+.recipe, .news{
+
+    text-align: center;
+}
+
+.paragraph2{
+
+    padding: 5px;
+    color: rgb(58, 57, 57);
+}
+.para-second{
+
+    padding-left: 5px;
+}
+
+.para-side{
+
+    padding: 5px;
+    color: rgb(255, 255, 255, 0.5);
+}
+
+h5{
+
+    color: rgb(255, 255, 255, 0.3);
+}
+
+.fa-tint{
+    padding: 5px;
+    color: #25B3B4;
+}
+
+.fa-comment, .fa-plus-circle{
+
+    color: #fff;
+    padding-left: 5px;
+}
+
+.bouton{
+
+    float: right;
+    padding: 5px;
+    background-color: #25B3B4;
+    border-style: none;
+    color: #fff;
+    margin-right: 20px;
+}
+
+/* ----------------FOOTER----------------- */
+
+#pied-page{
+
+    text-align: center;
+    font-size: 10px;
+    padding-top: 720px;
+    
+}
+
+.academy{
+    width: 50px;
+}
